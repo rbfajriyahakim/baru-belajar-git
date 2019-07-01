@@ -1,0 +1,20 @@
+<HTML>
+<BODY>
+<table>
+ <thead>
+ <tr>
+  <th>pendapatan</th>
+  <th>biayaiklan</th>
+ </tr>
+ </thead>
+ <tbody>
+  {% for row in value %}
+   <tr>
+    <td>{{row[0]}}</td>
+    <td>{{row[1]}}</td>
+   </tr>
+  {% endfor %}
+ </tbody>
+</table>
+</BODY>
+</HTML>
